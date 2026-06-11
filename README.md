@@ -17,7 +17,7 @@
 
 ## 📄 Research Paper
 
-> **MangiferaNet: A Lightweight and Intelligent Web-Based Framework for Automated Detection of Mango Leaf Diseases with an In-Depth Comparative Literature Analysis**
+> **MangiferaNet: A Survey-Driven Explainable Lightweight Deep Learning Framework for Automated Mango Leaf Disease Detection and Web-Based Diagnosis**
 
 This repository contains the full implementation of the MangiferaNet framework, as described in the research paper. The model is deployed as a user-friendly web application, enabling farmers and agricultural stakeholders to perform real-time mango leaf disease diagnosis.
 
@@ -28,7 +28,7 @@ This repository contains the full implementation of the MangiferaNet framework, 
 Mango leaf diseases pose a significant challenge to agricultural productivity, particularly in regions where mango cultivation is a cornerstone of the economy. **MangiferaNet** addresses this by providing:
 
 - ✅ Automated disease detection using deep learning
-- ✅ 98% classification accuracy on a dataset of 9,400 images
+- ✅ 99% classification accuracy on two dataset namely MLDID (3000) and MLD24 (6400) images
 - ✅ Real-time diagnosis via a web-based interface
 - ✅ Lightweight MobileNetV2 architecture for efficient inference
 
@@ -74,8 +74,8 @@ Output (8 classes)
 - **Optimizer:** RMSprop (lr=0.001)
 - **Loss:** Categorical Crossentropy
 - **Epochs:** 50
-- **Dataset:** 9,400 images (7 disease classes + healthy)
-- **Accuracy:** 98%
+- **Dataset:** 3000 9(4 disease classses + healthy) additionally 6,400 images (7 disease classes + healthy)
+- **Accuracy:** 99%
 
 ---
 
@@ -92,7 +92,7 @@ The model is deployed as a Flask web application with the following features:
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure (This fill will be available after publish paper) 
 
 ```
 MangiferaNet/
@@ -119,7 +119,7 @@ MangiferaNet/
 
 ### Step 1 — Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/MangiferaNet.git
+git clone https://github.com/subirbiswas192001/MangiferaNet.git
 cd MangiferaNet
 ```
 
@@ -174,9 +174,13 @@ gunicorn
 ## 🔬 Research Contributions
 
 1. Development of a CNN-based framework for mango leaf disease classification
-2. Validation of the model on a comprehensive, real-world dataset of 9,400 images
+2. Validation of the model on a comprehensive, real-world dataset of total 9,400 images
 3. Demonstration of superior performance (98% accuracy) compared to state-of-the-art approaches
-4. Deployment of the model in an accessible web application for real-time disease diagnosis
+4. XAI Analysis; Original Image vs Grad-CAM++, Vanilla Gradients, Integrated
+Gradients (IG), SmoothGrad visualizations highlighting regions contributing to predic-
+tions for selected mango leaf disease classes. Color intensity corresponds to contribution
+strength.
+5. Deployment of the model in an accessible web application for real-time disease diagnosis
 
 ---
 
@@ -184,9 +188,9 @@ gunicorn
 
 | Metric | Value |
 |--------|-------|
-| Classification Accuracy | **98%** |
+| Classification Accuracy | **99%** |
 | Number of Classes | **8** |
-| Dataset Size | **9,400 images** |
+| Dataset Size | **Total 9,400 images** |
 | Model Architecture | **MobileNetV2** |
 | Input Size | **224 × 224** |
 
@@ -224,4 +228,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-<p align="center">Made with ❤️ for sustainable agriculture 🌾</p>
+<p align="center">Made for sustainable agriculture 🌾</p>
