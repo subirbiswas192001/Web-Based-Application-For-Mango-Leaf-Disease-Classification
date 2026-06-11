@@ -10,7 +10,7 @@
 
 <p align="center">
   <b>A Lightweight and Intelligent Web-Based Framework for Automated Detection of Mango Leaf Diseases</b><br/>
-  Based on MobileNetV2 Architecture | 98% Classification Accuracy | 8 Disease Classes
+  Based on MobileNetV2 Architecture | 99% Classification Accuracy | 8 Disease Classes
 </p>
 
 ---
