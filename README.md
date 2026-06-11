@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/TensorFlow-2.20.0-orange?style=for-the-badge&logo=tensorflow"/>
   <img src="https://img.shields.io/badge/Keras-3.13.2-red?style=for-the-badge&logo=keras"/>
   <img src="https://img.shields.io/badge/Flask-3.0.0-black?style=for-the-badge&logo=flask"/>
-  <img src="https://img.shields.io/badge/Accuracy-98%25-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Accuracy-99%25-brightgreen?style=for-the-badge"/>
 </p>
 
 <p align="center">
