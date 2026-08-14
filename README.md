@@ -201,13 +201,11 @@ strength.
 If you use this work in your research, please cite:
 
 ```bibtex
-@article{mangifranet2026,
-  title     = {MangiferaNet: A Lightweight and Intelligent Web-Based Framework 
-               for Automated Detection of Mango Leaf Diseases with an 
-               In-Depth Comparative Literature Analysis},
-  author    = {Subir19},
+@article{
+  title     = {MangiferaNet:},
+  author    = {},
   year      = {2026},
-  url       = {https://github.com/YOUR_USERNAME/MangiferaNet}
+  url       = {}
 }
 ```
 
